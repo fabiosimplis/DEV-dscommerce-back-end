@@ -1,4 +1,4 @@
-package com.devsuperior.dscommerce;
+package com.devsuperior.dscommerce.entities;
 
 import com.devsuperior.dscommerce.entities.Order;
 import jakarta.persistence.*;
