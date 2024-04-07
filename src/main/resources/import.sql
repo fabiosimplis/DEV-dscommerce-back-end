@@ -59,7 +59,7 @@ INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Maria Br
 INSERT INTO tb_user (name, email, phone, password, birth_date) VALUES ('Alex Green', 'alex@gmail.com', '977777777', '$2a$10$QdMDnkrg3oj1fkRvjzn7i.rvK7880k7kG1BnGXATHg6HiFGhoXGju', '1987-12-13');
 
 /* Padrão do spring security */
-INSERT INTO tb_role (authority) VALUES ('ROLE_OPERATOR');
+INSERT INTO tb_role (authority) VALUES ('ROLE_CLIENT');
 INSERT INTO tb_role (authority) VALUES ('ROLE_ADMIN');
 
 INSERT INTO tb_user_role (user_id, role_id) VALUES (1, 1);

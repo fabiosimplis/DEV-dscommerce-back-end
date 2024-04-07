@@ -86,6 +86,7 @@ public class User implements UserDetails {
         return password;
     }
 
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return roles;
@@ -126,6 +127,10 @@ public class User implements UserDetails {
 
     public void addRole(Role role){
         roles.add(role);
+    }
+
+    public Set<Role> getRole(){
+        return roles;
     }
 
     public boolean hasRole(String roleName){
