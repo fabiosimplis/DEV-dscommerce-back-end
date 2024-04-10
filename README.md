@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 
-DEcommerce é uma aplicação back end web construída em conjunto ao curso **Java Spring Professional**, da plataforma [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+DScommerce é uma aplicação back end web construída em conjunto ao curso **Java Spring Professional**, da plataforma [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
 O sistema deve manter um cadastro de usuário, produtos e suas categorias. Cada usuário possui nome, email, telefone, data de nascimento e uma senha de acesso. Os dados dos produtos são: nome, descrição, preço e imagem. 
 O sistema deve apresentar um catálogo de produtos, os quais podem ser filtrados pelo nome do produto. 
@@ -19,7 +19,7 @@ Clientes podem atualizar seu cadastro no sistema, registrar pedidos e visualizar
 [FIGMA](https://www.figma.com/file/ZrGNVNG0kZL6txDv4G8P6s/DSCommerce)
 
 ## Modelo conceitual
-
+![Modelo Conceitual](https://github.com/fabiosimplis/DEV-dscommerce-back-end/blob/main/assets/Modelo_Conceitual.png).
 
 # Tecnologias utilizadas
 ## Back end
